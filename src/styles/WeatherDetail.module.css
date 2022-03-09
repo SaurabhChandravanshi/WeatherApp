@@ -1,0 +1,33 @@
+.card {
+    margin: 0rem 0.5rem 1rem 0rem;
+    padding: 1.5rem;
+    text-align: left;
+    color: var(--text-color);
+    text-decoration: none;
+    border: 1px solid var(--border-color);
+    text-align: center;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    min-width: 300px;
+    max-width: 400px;
+  }
+
+  .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .small {
+      font-size: 13px;
+      text-align: left;
+  }
+  .medium {
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+  }
+
+  .hr {
+      background-color: aquamarine;
+  }
